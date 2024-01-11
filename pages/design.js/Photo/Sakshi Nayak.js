@@ -1,19 +1,18 @@
 import React from 'react'
 
 const resume = () => {
-  return (
+  return (  
+  
 
-    <div className="flex items-center justify-center mt-5 px-36">
-    {/* <div class="grid grid-cols-3  "> */}
+    <div className="flex">
     <div className="card "><br />
-      {/* <div class="bg-gray-800 w-80 min-h-screen p-3 h-5/8">  */}
-      <div className="bg-gray-700 w-64 h-auto p-10">
-        <div className="grid grid-cols-2 text-white">
-          <div className="card">
+      <div className="bg-gray-700 w-64 h-auto">
+        <div className="grid grid-cols-3 text-white">
+          <div className="card px-16">
             <h1>Nishyan</h1>
-            <h1>Visit store</h1>
+            <h1>Visit</h1>
             <hr className="bg-white w-3/4" />
-          </div>
+          </div><br />
           <div className="card px-9">
             <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
               <path d="M2.84685 7.22185C3.26727 6.80143 3.92516 6.76321 4.38876 7.10719L4.52157 7.22185L10 12.6997L15.4784 7.22185C15.8988 6.80143 16.5567 6.76321 17.0203 7.10719L17.1532 7.22185C17.5736 7.64227 17.6118 8.30016 17.2678 8.76376L17.1532 8.89657L10.8374 15.2124C10.4169 15.6328 9.75905 15.671 9.29545 15.327L9.16264 15.2124L2.84685 8.89657C2.38438 8.43411 2.38438 7.68431 2.84685 7.22185Z" fill="white" />
@@ -21,7 +20,7 @@ const resume = () => {
           </div>
         </div> 
         <br />
-        <div className="grid grid-cols-2 ">
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -36,8 +35,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -56,8 +56,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4 ">
@@ -73,8 +74,8 @@ const resume = () => {
             </div>
           </div>
         </div>
-        <br />
-        <div className="grid grid-cols-2">
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -93,8 +94,8 @@ const resume = () => {
             </div>
           </div>
         </div>
-        <br />
-        <div className="grid grid-cols-2">
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4 ">
@@ -113,8 +114,8 @@ const resume = () => {
             </div>
           </div>
         </div>
-        <br />
-        <div className="grid grid-cols-2">
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -132,8 +133,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -146,8 +148,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -170,8 +173,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -189,8 +193,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -214,8 +219,9 @@ const resume = () => {
               </div>
             </div>
           </div>
-        </div><br />
-        <div className="grid grid-cols-2">
+        </div>
+        {/* <br> */}
+        <div className="grid grid-cols-2 p-2">
           <div className="card">
             <div className="grid grid-cols-2">
               <div className="card px-4">
@@ -231,25 +237,28 @@ const resume = () => {
             </div>
           </div>
         </div><br /><br />
-        <div className="grid grid-cols-2 bg-gray-600 text-white text-xs p-3">
-          <div className="card">
-            <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-              <path fillRule="evenodd" clipRule="evenodd" d="M3.00312 3.79727C2.42636 3.79727 1.80313 4.35527 1.80313 5.24727V18.7473C1.80313 19.6393 2.42636 20.1973 3.00312 20.1973H21.0031C21.5799 20.1973 22.2031 19.6393 22.2031 18.7473V15.8473H17.0032C14.8769 15.8473 13.1532 14.1236 13.1532 11.9973C13.1532 9.87097 14.8769 8.14727 17.0032 8.14727H22.2031V5.24727C22.2031 4.35527 21.5799 3.79727 21.0031 3.79727H3.00312ZM23.8031 8.14727V5.24727C23.8031 3.65398 22.6355 2.19727 21.0031 2.19727H3.00312C1.37075 2.19727 0.203125 3.65398 0.203125 5.24727V18.7473C0.203125 20.3405 1.37075 21.7973 3.00312 21.7973H21.0031C22.6355 21.7973 23.8031 20.3405 23.8031 18.7473V15.8473H23.8532V8.14727H23.8031ZM16.0032 11.9473C16.0032 11.4778 16.3837 11.0973 16.8532 11.0973H18.1532C18.6226 11.0973 19.0032 11.4778 19.0032 11.9473C19.0032 12.4167 18.6226 12.7973 18.1532 12.7973H16.8532C16.3837 12.7973 16.0032 12.4167 16.0032 11.9473ZM14.8532 11.9973C14.8532 10.8099 15.8158 9.84727 17.0032 9.84727H22.1532V14.1473H17.0032C15.8158 14.1473 14.8532 13.1847 14.8532 11.9973Z" fill="white" />
-            </svg>
-          </div>
-          <div className="card">
-            <h1>Available</h1>
-            <h1 className="text-2xl">222.10</h1>
+        <div className="px-5 p-14">
+          <div className="grid grid-cols-2 bg-gray-600 text-white text-xs ">
+            <div className="card px-12 p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
+                <path fillRule="evenodd" clipRule="evenodd" d="M3.00312 3.79727C2.42636 3.79727 1.80313 4.35527 1.80313 5.24727V18.7473C1.80313 19.6393 2.42636 20.1973 3.00312 20.1973H21.0031C21.5799 20.1973 22.2031 19.6393 22.2031 18.7473V15.8473H17.0032C14.8769 15.8473 13.1532 14.1236 13.1532 11.9973C13.1532 9.87097 14.8769 8.14727 17.0032 8.14727H22.2031V5.24727C22.2031 4.35527 21.5799 3.79727 21.0031 3.79727H3.00312ZM23.8031 8.14727V5.24727C23.8031 3.65398 22.6355 2.19727 21.0031 2.19727H3.00312C1.37075 2.19727 0.203125 3.65398 0.203125 5.24727V18.7473C0.203125 20.3405 1.37075 21.7973 3.00312 21.7973H21.0031C22.6355 21.7973 23.8031 20.3405 23.8031 18.7473V15.8473H23.8532V8.14727H23.8031ZM16.0032 11.9473C16.0032 11.4778 16.3837 11.0973 16.8532 11.0973H18.1532C18.6226 11.0973 19.0032 11.4778 19.0032 11.9473C19.0032 12.4167 18.6226 12.7973 18.1532 12.7973H16.8532C16.3837 12.7973 16.0032 12.4167 16.0032 11.9473ZM14.8532 11.9973C14.8532 10.8099 15.8158 9.84727 17.0032 9.84727H22.1532V14.1473H17.0032C15.8158 14.1473 14.8532 13.1847 14.8532 11.9973Z" fill="white" />
+              </svg>
+            </div>
+            <div className="card">
+              <h1>Available</h1>
+              <h1 className="text-2xl">222.10</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    {/* ..................................................... */}
+    
+
     <div className="col-span-2 bg-slate-50"><br />
-      {/* <div class="px-3"> */}
+    
       <div className="grid grid-cols-3 ">
         <div className="card px-3 ">
-          <p>Payouts</p>                
+          <p className="text-lg text-black-900">Payouts</p>                
         </div>                
         <div className="card">                   
           <form>   
@@ -260,14 +269,14 @@ const resume = () => {
                   <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
                 </svg>
               </div>
-              <input type="search" id="default-search" className="block w-full p-3 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search features, tutorials, etc." required />
+              <input type="search" id="default-search" className="block w-full p-2 ps-10 px-8 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search features, tutorials, etc." required />
               {/* <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button> */}
             </div>
           </form>        
         </div>
         <div className="card">
           <div className="grid grid-cols-2">
-            <div className="card px-28 p-4">
+            <div className="card px-40 p-3">
               <svg xmlns="http://www.w3.org/2000/svg" width={20} height={20} viewBox="0 0 20 20" fill="none">
                 <path d="M18.4211 0.0237288L1.11579 3.38234C0.463158 3.49896 0 4.1287 0 4.85174V12.5019C0 13.225 0.463158 13.8547 1.11579 13.9713L2.88421 14.3212C3.6 15.6273 4.94737 17.8897 6.75789 19.7323C7.36842 20.362 8.37895 19.8022 8.25263 18.8693C8.08421 17.6331 8.12632 16.3037 8.18947 15.3707L18.4211 17.3766C19.2421 17.5398 20 16.8401 20 15.9072V1.49312C20 0.560174 19.2421 -0.139537 18.4211 0.0237288ZM6.46316 9.6331C6.46316 9.88966 6.27368 10.0996 6.04211 10.0996H4.31579C4.08421 10.0996 3.89474 9.88966 3.89474 9.6331V7.72056C3.89474 7.464 4.08421 7.25408 4.31579 7.25408H6.04211C6.27368 7.25408 6.46316 7.464 6.46316 7.72056V9.6331ZM11.2842 9.6331C11.2842 9.88966 11.0947 10.0996 10.8632 10.0996H9.13684C8.90526 10.0996 8.71579 9.88966 8.71579 9.6331V7.72056C8.71579 7.464 8.90526 7.25408 9.13684 7.25408H10.8632C11.0947 7.25408 11.2842 7.464 11.2842 7.72056V9.6331ZM16.1263 9.6331C16.1263 9.88966 15.9368 10.0996 15.7053 10.0996H13.9789C13.7474 10.0996 13.5579 9.88966 13.5579 9.6331V7.72056C13.5579 7.464 13.7474 7.25408 13.9789 7.25408H15.6842C15.9158 7.25408 16.1053 7.464 16.1053 7.72056V9.6331H16.1263Z" fill="#4D4D4D" />
               </svg>
@@ -298,29 +307,37 @@ const resume = () => {
           </div>
           <div className="card px-48">
             <div className="grid grid-cols-2  w-56 text-black">
-              <div className="card px-2">
-                {/* <button class="border border-slate-300 hover:border-indigo-300 ...">
-                                    Send email
-                                  </button> */}
-                <h1 className="outline outline-1 outline-offset-2 ...">
-                  This Months
+              <div className="card px-14">
+               
+                <h1 className="box-border h-8 w-32 border-4 ...">
+                  <div className="grid grid-cols-3">
+                    <div className="card">
+                      <h1 className="text-xs px-4 p-1"> This</h1>
+                    </div>
+                    <div className="card">
+                      <h1 className="text-xs p-1">Months</h1>
+                    </div>
+                    <div className="card px-5 p-1">
+                      <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+                        <path d="M2.27748 5.77748C2.61381 5.44114 3.14013 5.41057 3.511 5.68575L3.61726 5.77748L8 10.1598L12.3827 5.77748C12.7191 5.44114 13.2454 5.41057 13.6163 5.68575L13.7225 5.77748C14.0589 6.11381 14.0894 6.64013 13.8142 7.011L13.7225 7.11726L8.66989 12.1699C8.33355 12.5062 7.80724 12.5368 7.43636 12.2616L7.33011 12.1699L2.27748 7.11726C1.90751 6.74729 1.90751 6.14745 2.27748 5.77748Z" fill="#4D4D4D" />
+                      </svg>
+                    </div>
+                  </div>
                 </h1>
-              </div>
-              <div className="card">
-                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-                  <path d="M2.27748 5.77748C2.61381 5.44114 3.14013 5.41057 3.511 5.68575L3.61726 5.77748L8 10.1598L12.3827 5.77748C12.7191 5.44114 13.2454 5.41057 13.6163 5.68575L13.7225 5.77748C14.0589 6.11381 14.0894 6.64013 13.8142 7.011L13.7225 7.11726L8.66989 12.1699C8.33355 12.5062 7.80724 12.5368 7.43636 12.2616L7.33011 12.1699L2.27748 7.11726C1.90751 6.74729 1.90751 6.14745 2.27748 5.77748Z" fill="#4D4D4D" />
-                </svg>
               </div>
             </div>
           </div>
         </div><br />
         <div className="grid grid-cols-3">
           <div className="card">
-            <div className="bg-sky-700 w-56 rounded-md"><br />
+            <div className="bg-sky-700 rounded-md"><br />
               {/* <h1 class="font-bold  text-white">Next Payout</h1> */}
-              <div className="grid grid-cols-2">
+              <div className="grid grid-cols-8">
                 <div className="card">
-                  <h1 className=" text-white px-2 text-xs">Next Payout</h1>
+                  <h1 className=" text-white px-2 text-xs">Next</h1>
+                </div>
+                <div className="card">
+                  <h1 className=" text-white text-xs">Payout</h1>
                 </div>
                 <div className="card">
                   <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
@@ -343,14 +360,14 @@ const resume = () => {
                 </div>
                 <div className="card">
                   <div className="grid grid-cols-3 text-white">
-                    <div className="card px-4">
+                    <div className="card px-6">
                       <p>23</p>
-                      <hr className="bg-white w-16" />
+                      <hr className="bg-white w-20" />
                     </div>
                     <div className="card">
                       <p>orders</p>
                     </div>
-                    <div className="card px-3">
+                    <div className="card p-1">
                       <svg xmlns="http://www.w3.org/2000/svg" width={25} height={24} viewBox="0 0 25 24" fill="none">
                         <path fillRule="evenodd" clipRule="evenodd" d="M8.95696 5.29289C9.34748 4.90237 9.98064 4.90237 10.3712 5.29289L16.3712 11.2929C16.5587 11.4804 16.6641 11.7348 16.6641 12C16.6641 12.2652 16.5587 12.5196 16.3712 12.7071L10.3712 18.7071C9.98065 19.0976 9.34748 19.0976 8.95696 18.7071C8.56643 18.3166 8.56643 17.6834 8.95696 17.2929L14.2498 12L8.95696 6.70711C8.56643 6.31658 8.56643 5.68342 8.95696 5.29289Z" fill="white" />
                       </svg>
@@ -359,12 +376,12 @@ const resume = () => {
                 </div>
               </div>
               {/* <hr class="bg-orange-700 w-2/6 p-14 rounded-3xl"> */}
-              <div className="grid grid-cols-2 bg-sky-900 w-56 text-white text-xs p-3">
+              <div className="grid grid-cols-2 bg-sky-900 text-white text-xs p-3">
                 <div className="card px-2">
-                  <h1>Next payout</h1>
+                  <h1>Next payout date:</h1>
                 </div>
-                <div className="card">
-                  <h1>Today,04:00PM</h1>
+                <div className="card px-4">
+                  <h1>Today, 04:00PM</h1>
                 </div>
               </div>
             </div>
@@ -376,10 +393,10 @@ const resume = () => {
                   <div className="card px-3">
                     <p>Amount</p>
                   </div>
-                  <div className="card px-7">
+                  <div className="card px-3">
                     <p>Pending</p>
                   </div>
-                  <div className="card px-10">
+                  <div className="card px-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={16} viewBox="0 0 17 16" fill="none">
                       <path fillRule="evenodd" clipRule="evenodd" d="M9.54966 11.6358C9.54966 12.1266 9.15178 12.5245 8.66096 12.5245C8.17015 12.5245 7.77227 12.1266 7.77227 11.6358C7.77227 11.145 8.17015 10.7471 8.66096 10.7471C9.15178 10.7471 9.54966 11.145 9.54966 11.6358Z" fill="#4D4D4D" />
                       <path fillRule="evenodd" clipRule="evenodd" d="M7.66328 3.89508C8.13964 3.69776 8.66381 3.64614 9.16951 3.74673C9.67521 3.84732 10.1397 4.09561 10.5043 4.4602C10.8689 4.82479 11.1172 5.2893 11.2178 5.79501C11.3184 6.30071 11.2668 6.82488 11.0694 7.30124C10.8721 7.7776 10.538 8.18475 10.1093 8.47121C9.8303 8.65761 9.51944 8.78746 9.19425 8.85542V8.96969C9.19425 9.26425 8.95547 9.50303 8.66092 9.50303C8.36637 9.50303 8.12758 9.26425 8.12758 8.96969V8.37723C8.12758 8.23578 8.18377 8.10012 8.28379 8.0001C8.38381 7.90008 8.51947 7.84389 8.66092 7.84389C8.96556 7.84389 9.26336 7.75356 9.51666 7.58431C9.76996 7.41506 9.96738 7.1745 10.084 6.89304C10.2005 6.61159 10.2311 6.30189 10.1716 6.0031C10.1122 5.70431 9.96549 5.42986 9.75007 5.21444C9.53466 4.99903 9.2602 4.85233 8.96141 4.7929C8.66263 4.73347 8.35292 4.76397 8.07147 4.88055C7.79002 4.99713 7.54946 5.19456 7.38021 5.44786C7.21096 5.70116 7.12062 5.99896 7.12062 6.3036C7.12062 6.59815 6.88184 6.83693 6.58729 6.83693C6.29274 6.83693 6.05395 6.59815 6.05395 6.3036C6.05395 5.78799 6.20685 5.28396 6.49331 4.85525C6.77976 4.42653 7.18692 4.09239 7.66328 3.89508Z" fill="#4D4D4D" />
@@ -394,16 +411,16 @@ const resume = () => {
                 <p className="text-2xl"><strong>₹2,312.23</strong></p><br />
               </div>
               <div className="card">
-                <div className="grid grid-cols-3 text-sky-600 px-9 text-xs">
+                <div className="grid grid-cols-3 text-sky-600 px-11 text-xs">
                   <div className="card p-2 ">
                     <p>23</p>
-                    <hr className=" bg-sky-600 w-16 px-1" />
+                    {/* <p class="underline decoration-red-700"></p> */}
                     {/* <hr class=" text-sky-600 bg-white w-16"> */}
                   </div>
-                  <div className="card px-4 p-2">
+                  <div className="card px-2 p-2">
                     <p>orders</p>
                   </div>
-                  <div className="card px-10 p-2 ">
+                  <div className="card px-5 p-1 ">
                     <svg xmlns="http://www.w3.org/2000/svg" width={25} height={24} viewBox="0 0 25 24" fill="none">
                       <path fillRule="evenodd" clipRule="evenodd" d="M8.62102 5.29289C9.01154 4.90237 9.64471 4.90237 10.0352 5.29289L16.0352 11.2929C16.2228 11.4804 16.3281 11.7348 16.3281 12C16.3281 12.2652 16.2228 12.5196 16.0352 12.7071L10.0352 18.7071C9.64471 19.0976 9.01154 19.0976 8.62102 18.7071C8.23049 18.3166 8.23049 17.6834 8.62102 17.2929L13.9139 12L8.62102 6.70711C8.23049 6.31658 8.23049 5.68342 8.62102 5.29289Z" fill="#146EB4" />
                     </svg>
@@ -420,10 +437,10 @@ const resume = () => {
                   <div className="card px-3">
                     <p>Amount</p>
                   </div>
-                  <div className="card px-12">
+                  <div className="card px-8">
                     <p>Pending</p>
                   </div>
-                  <div className="card px-20">
+                  <div className="card px-14">
                     <svg xmlns="http://www.w3.org/2000/svg" width={17} height={16} viewBox="0 0 17 16" fill="none">
                       <path fillRule="evenodd" clipRule="evenodd" d="M9.54966 11.6358C9.54966 12.1266 9.15178 12.5245 8.66096 12.5245C8.17015 12.5245 7.77227 12.1266 7.77227 11.6358C7.77227 11.145 8.17015 10.7471 8.66096 10.7471C9.15178 10.7471 9.54966 11.145 9.54966 11.6358Z" fill="#4D4D4D" />
                       <path fillRule="evenodd" clipRule="evenodd" d="M7.66328 3.89508C8.13964 3.69776 8.66381 3.64614 9.16951 3.74673C9.67521 3.84732 10.1397 4.09561 10.5043 4.4602C10.8689 4.82479 11.1172 5.2893 11.2178 5.79501C11.3184 6.30071 11.2668 6.82488 11.0694 7.30124C10.8721 7.7776 10.538 8.18475 10.1093 8.47121C9.8303 8.65761 9.51944 8.78746 9.19425 8.85542V8.96969C9.19425 9.26425 8.95547 9.50303 8.66092 9.50303C8.36637 9.50303 8.12758 9.26425 8.12758 8.96969V8.37723C8.12758 8.23578 8.18377 8.10012 8.28379 8.0001C8.38381 7.90008 8.51947 7.84389 8.66092 7.84389C8.96556 7.84389 9.26336 7.75356 9.51666 7.58431C9.76996 7.41506 9.96738 7.1745 10.084 6.89304C10.2005 6.61159 10.2311 6.30189 10.1716 6.0031C10.1122 5.70431 9.96549 5.42986 9.75007 5.21444C9.53466 4.99903 9.2602 4.85233 8.96141 4.7929C8.66263 4.73347 8.35292 4.76397 8.07147 4.88055C7.79002 4.99713 7.54946 5.19456 7.38021 5.44786C7.21096 5.70116 7.12062 5.99896 7.12062 6.3036C7.12062 6.59815 6.88184 6.83693 6.58729 6.83693C6.29274 6.83693 6.05395 6.59815 6.05395 6.3036C6.05395 5.78799 6.20685 5.28396 6.49331 4.85525C6.77976 4.42653 7.18692 4.09239 7.66328 3.89508Z" fill="#4D4D4D" />
@@ -459,17 +476,21 @@ const resume = () => {
           </div>
         </div><br />
         <div className="w-52">
-          <form>   
-            <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
-            <div className="relative">
-              <div className="absolute inset-y-0 start-0 flex items-center ps-1 pointer-events-none">
-                <svg className="w-4 h-3 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                </svg>
-              </div>
-              <input type="search" id="default-search" className="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Order ID or transaction ID" required />
+          <div className="grid grid-col-2">
+            <div className="card">
+              <form>   
+                <label htmlFor="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                <div className="relative">
+                  <div className="absolute inset-y-0 start-0 flex items-center ps-1 pointer-events-none">
+                    <svg className="w-4 h-3 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                    </svg>
+                  </div>
+                  <input type="search" id="default-search" className="block w-full p-2 ps-10 px-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Order ID or transaction ID" required />
+                </div>
+              </form>  
             </div>
-          </form>  
+          </div>
         </div>      
         <br />
         <div className="grid grid-cols-5 bg-gray-200 px-2 p-2">
@@ -605,12 +626,8 @@ const resume = () => {
         <hr className="bg-gray-900" />
       </div>
     </div>
-    {/* </div> */}
-  </div>
-     
-  
-  
-    )
+    </div>
+  )
 }
 
 export default resume
